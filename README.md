@@ -12,9 +12,9 @@ A generic context hook that share a state to multiple components
 
 * and then wrap the components that you what to share contexts with the GlobalProvider
 
-    <GlobalProvider providers={[CartItemsProvider,CategoryProvider,ProductSearchProvider]}>
+ `   <GlobalProvider providers={[CartItemsProvider,CategoryProvider,ProductSearchProvider]}>
         ...
-    </GlobalProvider>
+    </GlobalProvider>`
 
 * How to Access the contexts data in components :
 
